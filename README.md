@@ -10,7 +10,7 @@ but an original idea is appreciated
 
 please clone the repository to your github account and provide a link to the result
 
-## Location
+## Location:
 
 ### the component:
 src/app/pages/dashboard/dashboard.component.ts
