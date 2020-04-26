@@ -12,11 +12,11 @@ please clone the repository to your github account and provide a link to the res
 
 ## Location
 
-#####the component:
+### the component:
 src/app/pages/dashboard/dashboard.component.ts
-#####the html:
+### the html:
 src/app/pages/dashboard/dashboard.component.html
-#####the styles (scss):
+### the styles (scss):
 src/app/pages/dashboard/dashboard.component.scss
 
 ### How to install:
