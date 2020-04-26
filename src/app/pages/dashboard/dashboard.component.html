@@ -1,0 +1,42 @@
+<div>
+    <h1>Calls</h1>
+    <table border="1">
+        <tr>
+            <th>sourceSite</th>
+            <th>sourceAd</th>
+            <th>sourceCampaign</th>
+            <th>callRequest</th>
+            <th>type</th>
+            <th>createdAt</th>
+            <th>plannedAt</th>
+            <th>value</th>
+            <th>rating</th>
+            <th>operatorName</th>
+            <th>operatorPhone</th>
+            <th>clientPhone</th>
+            <th>talkTimeMin</th>
+            <th>talkTimeSec</th>
+            <th>oatSec</th>
+            <th>record</th>
+        </tr>
+        <tr *ngFor="let call of calls">
+            <td>{{call.sourceSite}}</td>
+            <td>{{call.sourceAd}}</td>
+            <td>{{call.sourceCampaign}}</td>
+            <td>{{call.callRequest}}</td>
+            <td>{{call.type}}</td>
+            <td>{{call.createdAt}}</td>
+            <td>{{call.plannedAt}}</td>
+            <td>{{call.value}}</td>
+            <td>{{call.rating}}</td>
+            <td>{{call.operatorName}}</td>
+            <td>{{call.operatorPhone}}</td>
+            <td>{{call.clientPhone}}</td>
+            <td>{{call.talkTimeMin}}</td>
+            <td>{{call.talkTimeSec}}</td>
+            <td>{{call.oatSec}}</td>
+            <td>{{call.record}}</td>
+        </tr>
+    </table>
+</div>
+

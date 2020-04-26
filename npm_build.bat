@@ -1,0 +1,1 @@
+powershell npm run build:prod && echo. && echo Finished! Press any key! && notify.bat -tooltip info -text "Angular build complete!" && PAUSE >NUL || echo. && echo Failed! Press any key!  && call notify.bat -tooltip warning -text "Angular build failed!" && PAUSE >NUL 
